@@ -4,4 +4,4 @@ Alan Rodrigo Cabrera Sanchez searnod@gmail.com Product Manager
 Mariana Legaria Plata marianalegariaplata@gmail.com Colaborador
 Smirna Gallardo Torres smirnagallardotorres@gmail.com Colaborador 
 
-Nombre del equipo: LOs Macacos que Lloran
+Nombre del equipo: Los Macacos que Lloran
