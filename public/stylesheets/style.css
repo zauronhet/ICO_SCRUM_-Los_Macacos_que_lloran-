@@ -1,9 +1,26 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: red;
+body,html {
+  height: 100%
+  
+  
 }
 
-a {
-  color: #00B7FF;
+#huno{
+  padding: 50px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://images6.alphacoders.com/438/thumb-1920-438994.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#huno{
+  padding-top: 50px;
 }
