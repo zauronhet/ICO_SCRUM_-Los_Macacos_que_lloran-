@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
   });
 
 
-  router.get('/about/pagina1', function(req, res, next) {
-    res.render('pagina1', { title: 'Express'});
+  router.get('/about/apartado1', function(req, res, next) {
+    res.render('apartado1', { title: 'Express'});
     });
 
 
