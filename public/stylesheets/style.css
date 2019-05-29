@@ -32,6 +32,10 @@ body,html {
   background-size: cover;
 }
 
+#iniciodef
+{
+  padding:20px;
+}
 
 #divblanco{
   color:white;
