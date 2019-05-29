@@ -8,7 +8,12 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var aboutRouter = require('./routes/about');
 var apartado1Router = require('./routes/apartado1');
+var apartado2Router = require('./routes/apartado2');
+var apartado3Router = require('./routes/apartado3');
+var apartado4Router = require('./routes/apartado4');
 var definicionesRouter = require('./routes/definiciones');
+var infoutilRouter = require('./routes/infoutil');
+var componentesRouter = require('./routes/componentes');
 var pagina1Router = require('./routes/pagina1');
 var app = express();
 
@@ -26,7 +31,12 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/about', aboutRouter);
 app.use('/apartado1',apartado1Router);
+app.use('/apartado2',apartado2Router);
+app.use('/apartado3',apartado3Router);
+app.use('/apartado4',apartado4Router);
 app.use('/definiciones',definicionesRouter);
+app.use('/infoutil',infoutilRouter);
+app.use('/componentes',componentesRouter);
 app.use('/pagina1',pagina1Router);
 
 // catch 404 and forward to error handler
