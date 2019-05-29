@@ -14,6 +14,9 @@ var apartado4Router = require('./routes/apartado4');
 var definicionesRouter = require('./routes/definiciones');
 var infoutilRouter = require('./routes/infoutil');
 var componentesRouter = require('./routes/componentes');
+var tpsRouter = require ('./routes/tps');
+var crmRouter = require ('./routes/crm');
+var misRouter = require ('./routes/mis');
 var pagina1Router = require('./routes/pagina1');
 var app = express();
 
@@ -38,6 +41,9 @@ app.use('/definiciones',definicionesRouter);
 app.use('/infoutil',infoutilRouter);
 app.use('/componentes',componentesRouter);
 app.use('/pagina1',pagina1Router);
+app.use('/tps',tpsRouter);
+app.use('/crm',crmRouter);
+app.use('/mis',misRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
