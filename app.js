@@ -18,7 +18,15 @@ var tpsRouter = require ('./routes/tps');
 var crmRouter = require ('./routes/crm');
 var misRouter = require ('./routes/mis');
 var pagina1Router = require('./routes/pagina1');
+var herramientasRouter = require('./routes/herramientas');
+var metoagilRouter = require('./routes/metoagil');
+var queesscrumRouter = require('./routes/queesscrum');
+var rolesRouter = require('./routes//roles');
+
+
+
 var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -44,6 +52,10 @@ app.use('/pagina1',pagina1Router);
 app.use('/tps',tpsRouter);
 app.use('/crm',crmRouter);
 app.use('/mis',misRouter);
+app.use('/herramientas',herramientasRouter);
+app.use('/roles',rolesRouter);
+app.use('/queesscrum',queesscrumRouter);
+app.use('/metoagil',metoagilRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

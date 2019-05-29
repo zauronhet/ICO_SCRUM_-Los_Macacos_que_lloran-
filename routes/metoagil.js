@@ -3,10 +3,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('apartado3', { title: 'Express'
+  res.render('metoagil', { title: 'Express'
   });
   });
-
 
   
 
