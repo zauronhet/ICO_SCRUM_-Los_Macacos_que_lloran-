@@ -15,7 +15,15 @@ var definicionesRouter = require('./routes/definiciones');
 var infoutilRouter = require('./routes/infoutil');
 var componentesRouter = require('./routes/componentes');
 var pagina1Router = require('./routes/pagina1');
+var herramientasRouter = require('./routes/herramientas');
+var metoagilRouter = require('./routes/metoagil');
+var queesscrumRouter = require('./routes/queesscrum');
+var rolesRouter = require('./routes//roles');
+
+
+
 var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -38,6 +46,10 @@ app.use('/definiciones',definicionesRouter);
 app.use('/infoutil',infoutilRouter);
 app.use('/componentes',componentesRouter);
 app.use('/pagina1',pagina1Router);
+app.use('/herramientas',herramientasRouter);
+app.use('/roles',rolesRouter);
+app.use('/queesscrum',queesscrumRouter);
+app.use('/metoagil',metoagilRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
