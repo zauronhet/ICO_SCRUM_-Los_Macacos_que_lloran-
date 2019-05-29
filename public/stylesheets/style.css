@@ -5,7 +5,18 @@ body,html {
 }
 
 #huno{
+  padding: 350px;
+}
+#huno2{
+  padding-top: 400px;
+}
+#huno3
+{
+  padding: 200px;
+}
+#iniciobutton{
   padding: 50px;
+  padding-left: 10px;
 }
 
 .bg {
@@ -21,9 +32,6 @@ body,html {
   background-size: cover;
 }
 
-#huno{
-  padding-top: 50px;
-}
 
 #divblanco{
   color:white;

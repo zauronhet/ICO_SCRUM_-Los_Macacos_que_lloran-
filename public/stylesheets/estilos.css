@@ -6,7 +6,11 @@ body,html {
 }
 
 #huno{
-  padding: 50px;
+  padding-top: 500px;
+
+}
+#divblanco{
+  color: black;
 }
 
 .bg {
@@ -22,10 +26,5 @@ body,html {
   background-size: cover;
 }
 
-#huno{
-  padding-top: 50px;
-}
 
-#hdos{
-  color: white;
-}
+
