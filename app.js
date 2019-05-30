@@ -21,8 +21,12 @@ var pagina1Router = require('./routes/pagina1');
 var herramientasRouter = require('./routes/herramientas');
 var metoagilRouter = require('./routes/metoagil');
 var queesscrumRouter = require('./routes/queesscrum');
-var rolesRouter = require('./routes//roles');
-
+var rolesRouter = require('./routes/roles');
+var andresRouter = require('./routes/andres');
+var alanRouter = require('./routes/alan');
+var marianaRouter = require('./routes/mariana');
+var smirnaRouter = require('./routes/smirna');
+var luisRouter = require('./routes/luis');
 
 
 var app = express();
@@ -56,6 +60,11 @@ app.use('/herramientas',herramientasRouter);
 app.use('/roles',rolesRouter);
 app.use('/queesscrum',queesscrumRouter);
 app.use('/metoagil',metoagilRouter);
+app.use('/andres',andresRouter);
+app.use('/alan',alanRouter);
+app.use('/mariana',marianaRouter);
+app.use('/smirna',smirnaRouter);
+app.use('/luis',luisRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
