@@ -1,8 +1,7 @@
 body,html {
-  height: 100%
-  
-  
-}
+  padding: 0px;
+  margin:0px;
+  }
 
 #huno{
   padding: 350px;
@@ -22,21 +21,21 @@ body,html {
   padding-left: 10px;
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
 .bg {
   /* The image used */
   background-image: url("https://images6.alphacoders.com/438/thumb-1920-438994.jpg");
-
-  /* Full height */
-  height: 120%;
-  /* Full width */
-  width: 100%;
-
-  position: relative;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100vh;
   background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
 #iniciodef
